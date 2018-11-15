@@ -7,7 +7,7 @@ const port = process.env.PORT || 3333;
 const dev = process.env.NODE_ENV !== 'production';
 
 const app = next({
-  conf: {
+/*   conf: {
    //  distDir: 'dist',
     pageExtensions: ['jsx', 'js', 'tsx', 'ts'],
     poweredByHeader: false,
@@ -16,7 +16,7 @@ const app = next({
 
       return config;
     },
-  },
+  }, */
   dev,
 });
 
