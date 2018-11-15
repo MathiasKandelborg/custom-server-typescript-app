@@ -1,8 +1,7 @@
 import * as next from 'next';
-const express = require('express');
-// const withCSS = require('@zeit/next-css');
+import * as express from 'express';
 
-const routes = require('./routes');
+import routes from "./routes";
 
 const port = process.env.PORT || 3333;
 const dev = process.env.NODE_ENV !== 'production';

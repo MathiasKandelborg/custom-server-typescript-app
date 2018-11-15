@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from '../server/routes'
+import {Link} from '../server/routes'
 
 export default () => (
   <ul>
